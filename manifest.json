@@ -1,0 +1,14 @@
+{
+    "name": "ShortsBlocker",
+    "version": "1.0.0",
+    "description": "Open YouTube short as video page",
+    "manifest_version": 3,
+    "author": "kamidorik",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["https://*.youtube.com/*"],
+    "permissions": [
+        "tabs"
+    ]
+}
